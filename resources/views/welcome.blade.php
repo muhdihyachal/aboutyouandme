@@ -45,7 +45,7 @@
     </nav>
 
     <header class="relative w-full h-[85vh] overflow-hidden">
-       <img src="{{ asset('1.JPG') }}" alt="Blue sky couple" class="w-full h-full object-cover">
+       <alt="Blue sky couple" class="w-full h-full object-cover">
         <div class="absolute inset-0 bg-blue-900/10 flex flex-col items-center justify-center text-center p-4">
             <span class="bg-ice-white/80 backdrop-blur-sm px-4 py-1 rounded-full text-xs font-semibold tracking-widest uppercase mb-6 text-deep-blue-text">Since 2018</span>
             <h1 class="text-6xl md:text-8xl font-serif text-white mb-4 drop-shadow-lg">Our Journey<br><span class="italic font-light">in Blue</span></h1>
