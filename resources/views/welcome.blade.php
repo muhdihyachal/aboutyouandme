@@ -80,7 +80,7 @@
 
                 <div class="flex flex-col md:flex-row-reverse items-center gap-10">
                     <div class="w-full md:w-1/2 overflow-hidden rounded-2xl">
-                        <img src="https://images.unsplash.com/photo-1518156677180-95a2893f3e9f?q=80&w=800&auto=format&fit=crop" alt="Travel" class="hover:scale-110 transition-transform duration-700 h-72 w-full object-cover">
+                        <img src="{{ asset('2.jpg') }}" alt="Travel" class="hover:scale-110 transition-transform duration-700 h-72 w-full object-cover">
                     </div>
                     <div class="w-full md:w-1/2 text-left md:text-right">
                         <p class="text-xs font-bold tracking-widest text-light-blue-accent mb-2 uppercase">Petualangan</p>
