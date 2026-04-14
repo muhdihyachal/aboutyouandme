@@ -69,7 +69,7 @@
             <div class="lg:col-span-3 space-y-24">
                 <div class="flex flex-col md:flex-row items-center gap-10">
                     <div class="w-full md:w-1/2 overflow-hidden rounded-2xl">
-                        <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=800&auto=format&fit=crop" alt="First Meeting" class="hover:scale-110 transition-transform duration-700 h-72 w-full object-cover">
+                        <img src="{{ asset('1.JPG') }}" alt="First Meeting" class="hover:scale-110 transition-transform duration-700 h-72 w-full object-cover">
                     </div>
                     <div class="w-full md:w-1/2">
                         <p class="text-xs font-bold tracking-widest text-light-blue-accent mb-2 uppercase">Awal Mula</p>
