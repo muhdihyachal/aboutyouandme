@@ -47,10 +47,10 @@
     <header class="relative w-full h-[85vh] overflow-hidden">
        <alt="Blue sky couple class="w-full h-full object-cover">
         <div class="absolute inset-0 bg-blue-900/10 flex flex-col items-center justify-center text-center p-4">
-            <span class="bg-ice-white/80 backdrop-blur-sm px-4 py-1 rounded-full text-xs font-semibold tracking-widest uppercase mb-6 text-deep-blue-text">Since 2018</span>
+            <span class="bg-ice-white/80 backdrop-blur-sm px-4 py-1 rounded-full text-xs font-semibold tracking-widest uppercase mb-6 text-deep-blue-text">Since 2024</span>
             <h1 class="text-6xl md:text-8xl font-serif text-white mb-4 drop-shadow-lg">Our Journey<br><span class="italic font-light">in Blue</span></h1>
             <p class="text-white text-lg max-w-lg mb-8 drop-shadow-md font-light">Meniti hari di bawah langit yang sama, mengukir cerita dalam balutan ketenangan.</p>
-            <a href="#gallery" class="bg-ice-white text-deep-blue-text hover:bg-light-blue-accent hover:text-white px-10 py-3 rounded-full transition-all duration-500 shadow-xl font-semibold tracking-wide">Explore Our Gallery</a>
+            <a href="{{ url('/gallery') }}" class="bg-ice-white text-deep-blue-text hover:bg-light-blue-accent hover:text-white px-10 py-3 rounded-full transition-all duration-500 shadow-xl font-semibold tracking-wide">Explore Our Gallery</a>
         </div>
     </header>
 
@@ -61,7 +61,8 @@
                 <div class="sticky top-32">
                     <h2 class="text-4xl font-serif text-light-blue-accent mb-6">Our Story</h2>
                     <p class="italic text-deep-blue-text/70 mb-8 border-l-4 border-light-blue-accent pl-4">
-                        "Cinta seperti langit biru, luas tak bertepi dan selalu menenangkan."
+                        "di sini di tempat terpencil,di ujung dunia yang sunyi aku menemukan pusat jiwaku yang selama ini keliru, 
+                        kau adalah alasan mengapa lelah ku terasa damai senyum mu adalah pemandangan terindah yang abadi dan tak terurai."
                     </p>
                 </div>
             </div>
@@ -73,8 +74,8 @@
                     </div>
                     <div class="w-full md:w-1/2">
                         <p class="text-xs font-bold tracking-widest text-light-blue-accent mb-2 uppercase">Awal Mula</p>
-                        <h3 class="text-2xl font-serif text-deep-blue-text mb-4">Pertemuan Pertama</h3>
-                        <p class="text-gray-400 leading-relaxed">Berawal dari sapaan singkat di bawah cerahnya langit pagi, kita menyadari bahwa dunia terasa lebih indah saat dijalani bersama.</p>
+                        <h3 class="text-2xl font-serif text-deep-blue-text mb-4">Kenal</h3>
+                        <p class="text-gray-400 leading-relaxed">Berawal dari kamu chat aku "Eh", keterusan sampe sekarang hihi ya kaan.. .</p>
                     </div>
                 </div>
 
@@ -83,8 +84,8 @@
                         <img src="{{ asset('2.jpg') }}" alt="Travel" class="hover:scale-110 transition-transform duration-700 h-72 w-full object-cover">
                     </div>
                     <div class="w-full md:w-1/2 text-left md:text-right">
-                        <p class="text-xs font-bold tracking-widest text-light-blue-accent mb-2 uppercase">Petualangan</p>
-                        <h3 class="text-2xl font-serif text-deep-blue-text mb-4">Melintasi Samudera</h3>
+                        <p class="text-xs font-bold tracking-widest text-light-blue-accent mb-2 uppercase">Pertamakali</p>
+                        <h3 class="text-2xl font-serif text-deep-blue-text mb-4">Kita Meet</h3>
                         <p class="text-gray-400 leading-relaxed">Menjelajahi tempat-tempat baru, menemukan kedamaian di setiap deburan ombak dan warna biru laut yang kita lalui.</p>
                     </div>
                 </div>
