@@ -36,7 +36,7 @@
     
     <a href="{{ url('/gallery') }}" class="hover:text-light-blue-accent transition-colors">Gallery</a>
     
-    <a href="#" class="hover:text-light-blue-accent transition-colors">Videos</a>
+    
     <a href="#" class="hover:text-light-blue-accent transition-colors">Messages</a>
 </div>
         <div class="text-light-blue-accent">

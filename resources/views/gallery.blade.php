@@ -36,7 +36,7 @@
     
     <a href="{{ url('/gallery') }}" class="hover:text-light-blue-accent transition-colors">Gallery</a>
     
-    <a href="#" class="hover:text-light-blue-accent transition-colors">Videos</a>
+    
     <a href="#" class="hover:text-light-blue-accent transition-colors">Messages</a>
 </div>
         <div class="text-light-blue-accent">
@@ -55,8 +55,7 @@
             
             <div class="flex flex-wrap gap-3">
                 <button class="px-6 py-2 rounded-full bg-light-blue-accent text-white text-xs font-semibold tracking-wider uppercase transition-transform hover:scale-105">All Photos</button>
-                <button class="px-6 py-2 rounded-full bg-white border border-blue-100 text-gray-text hover:text-light-blue-accent hover:border-light-blue-accent text-xs font-semibold tracking-wider uppercase transition-all">Ceremony</button>
-                <button class="px-6 py-2 rounded-full bg-white border border-blue-100 text-gray-text hover:text-light-blue-accent hover:border-light-blue-accent text-xs font-semibold tracking-wider uppercase transition-all">Travels</button>
+                
             </div>
         </div>
     </section>
